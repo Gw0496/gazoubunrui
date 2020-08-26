@@ -18,8 +18,10 @@ from keras.optimizers import Adam
 from keras.utils import np_utils
 
 FileNames = ["img1.npy", "img2.npy", "img3.npy"]
-ClassNames = ["hara", "koiwai", "shibuno"]
+ClassNames = ["akimoto", "shiraishi", "nishino"]
 hw = {"height":32, "width":32}        # リストではなく辞書型 中かっこで囲む
+
+google_drive_dir = "/content/drive/My Drive/gazoubunrui/"
 
 
 ################################
@@ -41,7 +43,7 @@ def PreProcess(dirname, filename, var_amount=3):
         num += 1
 
     nplist = np.array(arrlist)
-    np.save(filename, nplist)
+    np.save(google_drive_dir + filename, nplist)
     print(">> " + dirname + "から" + str(num) + "個のファイル読み込み成功")
 
 
@@ -89,7 +91,7 @@ def Learning(tsnum=30, nb_epoch=50, batch_size=8, learn_schedule=0.9):
     X_TRAIN_list = []; Y_TRAIN_list = []; X_TEST_list = []; Y_TEST_list = [];
     target = 0
     for filename in FileNames :
-        data = np.load(filename)          # 画像のnumpyデータを読み込み
+        data = np.load(google_drive_dir + filename)          # 画像のnumpyデータを読み込み
         trnum = data.shape[0] - tsnum
         X_TRAIN_list += [data[i] for i in range(trnum)]          # 画像データ
         Y_TRAIN_list += [target] * trnum                         # 分類番号
