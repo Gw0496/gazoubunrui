@@ -14,3 +14,7 @@ Google Driveに 画像フォルダを格納する。
 /content/drive/My Drive/ColabData/origin_image  
 の下に、お好きな３名の人物画像をフォルダごとに格納してください。  
 
+#参考
+GitHubとの連携  
+http://hirotaka-hachiya.hatenablog.com/entry/2019/06/10/000051  
+
