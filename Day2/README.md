@@ -25,15 +25,25 @@ Pyhonのモジュール単位と同じイメージでしょうか。
   
 本日のお題：  
 https://qiita.com/neet-AI/items/2b3d7f743e4d6c6d8e10  
-
+  
 このモジュールを、まずは前処理部分まで実装し、動作確認します。  
 pythonの外部モジュールを colaboratry上で使います。  
-
+  
 https://qiita.com/Kunikata/items/45e731753e97bda28aab  
+  
+ic_module.py  
+・Google Driveにファイルを保存する形に変更してください。  
+・このモジュールには今回は不要そうな処理があるのでコメントアウトしてください。  
 
-このモジュールには今回は不要そうな処理があるのでコメントアウトしてください。
-
-keras で読み取るためのファイルができれば前処理は完成です。
-
+preprocess.ipynb  
+keras で読み取るためのファイルがgoogle drive上にできれば前処理は完成です。  
+  
+※できた人もできない人も  
+  
+答え合わせ  
+  
+GitHubのブランチ  
+referenceブランチを作成し、編集→解答を貼り付け→commit  
+Historyで比較  
 
 
