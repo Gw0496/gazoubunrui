@@ -42,7 +42,7 @@ http://hirotaka-hachiya.hatenablog.com/entry/2019/06/10/000051
 画像データの水増し  
 https://qiita.com/skyfish20ch/items/781407972c84de05af60
   
-顔認証モデルあれこれ
+顔認証モデルあれこれ  
 https://qiita.com/tnoce/items/c819c85a85c16d246be8
 
 
