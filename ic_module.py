@@ -36,10 +36,10 @@ def PreProcess(dirname, filename, var_amount=3):
         img = load_img(imgfile, target_size=(hw["height"], hw["width"]))    # 画像ファイルの読み込み
         array = img_to_array(img) / 255                                     # 画像ファイルのnumpy化
         arrlist.append(array)                 # numpy型データをリストに追加
-        for i in range(var_amount-1):
-            arr2 = array
-            arr2 = random_rotation(arr2, rg=360)
-            arrlist.append(arr2)              # numpy型データをリストに追加
+        # for i in range(var_amount-1):
+        #    arr2 = array
+        #    arr2 = random_rotation(arr2, rg=360)
+        #    arrlist.append(arr2)              # numpy型データをリストに追加
         num += 1
 
     nplist = np.array(arrlist)
@@ -133,7 +133,7 @@ def Learning(tsnum=30, nb_epoch=50, batch_size=8, learn_schedule=0.9):
     json_string = model.to_json()
     json_string += '##########' + str(ClassNames)
     open(google_drive_dir + 'model.json', 'w').write(json_string)
-    model.save_weights('last.hdf5')
+    model.save_weights(google_drive_dir + 'last.hdf5')
 
 
 ################################
@@ -143,8 +143,11 @@ def TestProcess(imgname):
     modelname_text = open(google_drive_dir + "model.json").read()
     json_strings = modelname_text.split('##########')
     textlist = json_strings[1].replace("[", "").replace("]", "").replace("\'", "").split()
+    print("1")
     model = model_from_json(json_strings[0])
-    model.load_weights("last.hdf5")  # best.hdf5 で損失最小のパラメータを使用
+    print("2")
+    model.load_weights(google_drive_dir + "last.hdf5")  # best.hdf5 で損失最小のパラメータを使用
+    print("3")
     img = load_img(imgname, target_size=(hw["height"], hw["width"]))    
     TEST = img_to_array(img) / 255
 
