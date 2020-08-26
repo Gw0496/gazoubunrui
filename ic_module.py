@@ -23,7 +23,7 @@ hw = {"height":32, "width":32}        # リストではなく辞書型 中かっ
 
 google_drive_dir = "/content/drive/My Drive/gazoubunrui/"
 
-
+# branch test
 ################################
 ###### 画像データの前処理 ######
 ################################
