@@ -39,7 +39,7 @@ Day1-2
 GitHubとの連携  
 http://hirotaka-hachiya.hatenablog.com/entry/2019/06/10/000051  
 
-画像データの水増し
+画像データの水増し  
 https://qiita.com/skyfish20ch/items/781407972c84de05af60
 
 
