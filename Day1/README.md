@@ -11,7 +11,8 @@ Day1
 ・Webからの自動画像取得 実践  
   
 Colaboratry で新規NoteBookを作成する  
-GitHubのアカウントを作成する  
+GitHubのアカウントを作成する
+GitHubのリポジトリを作る。このときReadme.mdを作成するオプションを入れる。
 GitHubにつないでソースコードを管理する。  
 Colaboratry にGoogle driveを連携する  
   
@@ -38,10 +39,9 @@ Day1-2
 GitHubとの連携  
 http://hirotaka-hachiya.hatenablog.com/entry/2019/06/10/000051  
 
-Webからの画像取得
-→少し探してみてください
+画像データの水増し
+https://qiita.com/skyfish20ch/items/781407972c84de05af60
 
-テストデータの仕分け
 
 
 
