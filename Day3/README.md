@@ -20,7 +20,7 @@
   
   お題：下記に良記事やサンプルをまとめてみました。こちらを読んでいただき、
   　　　まずは感想をディスカッションしましょう。１人１分で11分
-  　　　30分で読んでみましょう。
+  　　　30分程度で読んでみましょう。
   　　　
   それから、実習の実装（10分）にすすみます。
   
@@ -48,6 +48,11 @@
   
   【Pythonコーディング規約】PEP 8 vs Google Style
   https://qiita.com/hi-asano/items/f43ced224483ea1f62f4
+  
+  余談ですが、エクストリーム・プログラミング
+  https://it-trend.jp/development_tools/article/32-0023
+  
+  おすすめ本： https://amzn.to/2Quk2mP https://amzn.to/3lkajhn
   
   --ここまで
   
