@@ -18,6 +18,13 @@
   ・昨今の開発でCodeをパクるのは常套手段です。そして、よくできたソリューションは  
   大抵良質なコードで書かれています  
   
+  お題：下記に良記事やサンプルをまとめてみました。こちらを読んでいただき、
+  　　　まずは感想をディスカッションしましょう。１人１分で11分
+  　　　30分で読んでみましょう。
+  　　　
+  それから、実習の実装（10分）にすすみます。
+  
+  
   良いコードを書く技術  
   https://qiita.com/NoriakiOshita/items/e60ab5bb01b90d927ae5  
   
@@ -41,6 +48,8 @@
   
   【Pythonコーディング規約】PEP 8 vs Google Style
   https://qiita.com/hi-asano/items/f43ced224483ea1f62f4
+  
+  --ここまで
   
   実習：
   https://oishi-kenko.hatenablog.com/entry/2019/07/05/192425
