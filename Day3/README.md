@@ -49,6 +49,9 @@
   【Pythonコーディング規約】PEP 8 vs Google Style
   https://qiita.com/hi-asano/items/f43ced224483ea1f62f4
   
+  VSCodeの話ですが：
+  https://qiita.com/firedfly/items/00c34018581c6cec9b84
+  
   余談ですが、エクストリーム・プログラミング
   https://it-trend.jp/development_tools/article/32-0023
   
@@ -58,9 +61,6 @@
   
   実習：
   https://oishi-kenko.hatenablog.com/entry/2019/07/05/192425
-  
-  VSCode：
-  https://qiita.com/firedfly/items/00c34018581c6cec9b84
   
 ##Day3-2
   GoogleFunction でやりたかったところですが、これは応用編でやってみてください。
