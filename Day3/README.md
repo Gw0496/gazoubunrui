@@ -70,7 +70,7 @@
   ※無料３万円の枠があるもののカードの入力が必要  
   
 
-  手順：実業務レベルです。割と重いです。チャレンジャー求む！！
+  手順：実業務レベルです。割と重いです。やり方考えます。
   
   やりたいこと
   ・colaboratryのサーバー化をして、画像を受け取って分類結果をHttpResponseで返却する。
@@ -95,7 +95,7 @@
   https://qiita.com/Motonaga/items/8da21f52e379469d744b
   
   アンケート
-  
+  https://forms.office.com/Pages/ResponsePage.aspx?id=ElscFkSOhkquGkFS5N1vj6y-ohaR5l1FmGkaNBWEH35UOFlHNUoxMUcyV1JWWTBJN1BDVFNaRVZRMSQlQCN0PWcu
   
   予備  
   
