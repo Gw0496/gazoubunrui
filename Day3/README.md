@@ -76,6 +76,8 @@
   ・※ ic.TestProcess(imgname)は、ファイルに保存された画像を処理しているので、
     image を受け渡す形式のImageTestProcessを追加して ic_module.py に実装する。
   ・TestProcess は保存されたファイルから、ImageTestProcessは、PIL Imageからテストできる形にする。
+  
+  ・修正前にブランチを作成するとよいです。
 
         ヒント：
         img = load_img(imgname, target_size=(hw["height"], hw["width"]))    
